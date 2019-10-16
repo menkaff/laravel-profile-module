@@ -102,7 +102,7 @@ class ProfileController extends Controller
             // upload path
             $extension = Request::file('image')->getClientOriginalExtension();
             // getting image extension
-            $fileName = $user->id . '_' . ProfileController::generateRandomString() . '.' . $extension;
+            $fileName = $user->id . '_' . generateRandomString() . '.' . $extension;
             // renameing image
             Request::file('image')->move($destinationPath, $fileName);
             $f_image = url('uploads/profile') . '/' . $fileName;

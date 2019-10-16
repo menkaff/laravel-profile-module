@@ -1,16 +1,15 @@
-<?php
-return array(
-    'show' => 'نمایش',
-    'profile' => 'پروفایل کاربری',
-    'info' => 'جزییات',
-    'edit' => 'ویرایش',
-    'email'=>'ایمیل',
-    'password'=>'رمز عبور',
-    'name'=>'نام',
-    'family'=>'نام خانوادگی',
-    'mobile'=>'تلفن همراه',
-    'image'=>'عکس',
-    'choose'=>'انتخاب',
-    'done'=>'با موفقیت انجام شد',
-    'password_confirmation' => 'تایید رمز عبور'
+<?php return array (
+  'choose' => 'انتخاب',
+  'done' => 'با موفقیت انجام شد',
+  'edit' => 'ویرایش',
+  'email' => 'ایمیل',
+  'family' => 'نام خانوادگی',
+  'image' => 'عکس',
+  'info' => 'جزییات',
+  'mobile' => 'تلفن همراه',
+  'name' => 'نام',
+  'password' => 'رمز عبور',
+  'password_confirmation' => 'تایید رمز عبور',
+  'profile' => 'پروفایل کاربری',
+  'show' => 'نمایش',
 );
