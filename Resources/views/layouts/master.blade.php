@@ -1,1 +1,1 @@
-@extends('theme::layout_canvas.master') 
+@extends('theme::'.env('FRONT_THEME').'.master') 
